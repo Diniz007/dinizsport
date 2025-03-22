@@ -94,3 +94,10 @@ footer {
     color: white;
 }
 
+.logo {
+    width: 120px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    position: absolute;
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+}
