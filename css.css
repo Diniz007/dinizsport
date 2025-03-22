@@ -19,11 +19,8 @@ header {
 }
 
 .logo {
-    width: 1000px;
+    width: 100px;
     height: auto;
-    left: 1000px;
-    right: 1000;
-
 }
 
 nav ul {
@@ -97,44 +94,3 @@ footer {
     color: white;
 }
 
-.logo {
-    width: 120px; /* Ajuste o tamanho conforme necessário */
-    height: auto;
-    position: absolute;
-    top: 10px; /* Distância do topo */
-    left: 10px; /* Distância da esquerda */
-}
-/* Configuração padrão para computadores */
-body {
-    font-size: 16px;
-}
-
-/* Para telas menores (tablets e celulares) */
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-
-    .produtos {
-        flex-direction: column; /* Os produtos ficarão empilhados em telas menores */
-        align-items: center;
-    }
-
-    .produto {
-        width: 90%; /* Ocupará quase toda a largura da tela */
-    }
-
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    nav ul {
-        padding: 0;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-}
