@@ -1,4 +1,4 @@
-/* Estilo global */
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,11 +13,14 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
-    .logo {
-        width: 200px;
-        height: 100px; /* Ajuste conforme necessário */
-    }
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
 }
 
 nav ul {
@@ -36,6 +39,44 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Catálogo de Produtos */
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.produto {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
 /* Seções */
 section {
     padding: 20px;
@@ -51,7 +92,5 @@ footer {
     padding: 10px;
     background-color: #007bff;
     color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
+
