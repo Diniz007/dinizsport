@@ -9,7 +9,7 @@
 /* Define a cor de fundo do site e a cor do texto */
 body {
     background-color: #000000; /* Cor clara de fundo */
-    color: #333; /* Cor do texto */
+    color: #ffffff; /* Cor do texto */
     line-height: 1.6;
 }
 
@@ -54,6 +54,16 @@ footer {
     }
 
     header {
-        font-size: 20px;
+        font-size: 200px;
     }
+}
+
+.img-screen-alt-class-logo {
+    width: 100px; /* Define a largura desejada */
+    height: 400; /* Mantém a proporção */
+}
+
+.produto img {
+    width: 200px;
+    height: 500;
 }
