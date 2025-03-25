@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #000000;
+    color: #000000;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #007bff;
-    color: white;
+    background-color: #000000;
+    color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
     display: flex;
@@ -34,9 +34,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(10, 10, 10);
     text-decoration: none;
-    font-weight: bold;
+    font-weight:bolder;
 }
 
 /* Catálogo de Produtos */
@@ -44,12 +44,12 @@ nav ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
+    gap: 200px;
+    padding: 200px;
 }
 
 .produto {
-    background: white;
+    background: rgb(0, 0, 0);
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -63,8 +63,8 @@ nav ul li a {
 }
 
 button {
-    background-color: #007bff;
-    color: white;
+    background-color: #000000;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -74,13 +74,13 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #000000;
 }
 
 /* Seções */
 section {
     padding: 20px;
-    background: white;
+    background: rgb(255, 0, 179);
     margin: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -90,7 +90,7 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #007bff;
-    color: white;
+    background-color: #ff00dd;
+    color: rgb(174, 0, 255);
 }
 
